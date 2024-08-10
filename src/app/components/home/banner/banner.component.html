@@ -1,0 +1,53 @@
+<section class="section banner">
+  <div [@bannerTrigger] class="container">
+    <div class="section-box-banner">
+      <div class="content">
+        <div class="banner-component">
+          <div>
+            <div>
+              <!-- <h1>Hola, mi nombre es</h1> -->
+              <h1>{{ "Banner.Pretitle" | translate }}</h1>
+            </div>
+            <div class="banner-title">
+              <h2>Mohamad Hamsho.</h2>
+              <h3>Software Engineer</h3>
+              <h3>Entrepreneur</h3>
+            </div>
+            <div class="banner-description">
+              <!-- <p
+                [innerHTML]="'Banner.Description' | translate"
+                class="mt-4"
+              ></p> -->
+            </div>
+          </div>
+          <!-- im adding image here -->
+          <div>
+            <div class="image" id="profileCover">
+              <img
+                id="profile-pic"
+                src="assets/images/me.png"
+                alt="Mohamad Hamsho"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="div-btn-banner">
+        <a
+          (click)="
+            analyticsService.sendAnalyticEvent(
+              'click_send_mail',
+              'banner',
+              'email'
+            )
+          "
+          href="https://www.linkedin.com/in/mohamad-hamsho-4566b0210/"
+          target="_black"
+          class="main-btn"
+        >
+          {{ "Banner.ActionBtn" | translate }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
