@@ -27,11 +27,11 @@ export class AppComponent implements OnInit{
     this.languageService.initLanguage()
 
 
-    this.titleService.setTitle( "Mohamad Hamsho | Frontend Engineer" );
+    this.titleService.setTitle( "Mohamad Hamsho | Software Engineer" );
 
     this.metaService.addTags([
       {name: 'keywords', content: 'Frontend, software, engineer'},
-      {name: 'description', content: '      With 4 years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. In my work, I like to lead, propose and execute ideas, write and refactor clean, reusable, and scalable code.'},
+      {name: 'description', content: '      Experienced in developing secure software solutions, intuitive interfaces, and leading tech projects to enhance digital experiences.'},
     ]);
 
 
