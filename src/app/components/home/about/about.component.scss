@@ -1,100 +1,131 @@
-@import "./../../../../variables.scss";
-
-.about{
-
-    .about-description{
-        margin-top: 30px;
-        max-width: 480px;
+.about {
+    background: linear-gradient(180deg, #fff7f2 0%, #ffffff 100%);
+    padding: 4rem 1rem;
+    position: relative;
+  
+    .about-description {
+      margin-top: 30px;
+      max-width: 480px;
     }
-
-    .about-img-container{
-        width: 34vw;
-        height: 35vh;
-        margin: auto;
-        overflow: hidden;
-        
-        img{
-            z-index: 2;
-            position: relative;
-            width: 700px;
-            height: 375px;
-            right: 20px;
+  
+    /* Wrapper for iPhone placeholders and text boxes */
+    .iphone-placeholder-wrapper {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 3rem;
+  
+      .iphone-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        .rectangular-text-box {
+          width: 250px;
+          background-color: #d3d3d3;
+          color: #333;
+          padding: 1rem;
+          border-radius: 5px;
+          text-align: center;
+          margin-bottom: 1rem;
+          font-size: 1rem;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
-    }
-
-    .skills-list{
-        display: grid;
-        grid-template-columns: repeat(2,minmax(140px,200px));
-        overflow: hidden;
-        padding: 0;
-        margin: 20px 0 0 0;
-        list-style: none;
-    }
-
-    .skill-element{
-        position: relative;
-        margin-bottom: 10px;
-        padding-left: 20px;
-        font-size: 13px;
-        font-family: $CodeFont;
-        color: $Slate;
-        span{
-          padding-bottom: 5px;
-        }
-
-        &:before {
-            content: '▹';
-            position: absolute;
-            left: 0;
-            color: $Green;
-            font-size: 14px;
-            line-height: 12px;
-        }
-    }
-
-}
-
-@media (min-width: 992px) and (max-width: 1300px){
-    .about-img-container{
-        margin-left: auto;
-        margin-right: 0;
-    }
-}
-
-@media (max-width: 500px){
-    .about{
-        .about-img-container img{
-            width: 200px;
-            height: 200px;
-        }
-        .about-img-container:after {
-            width: 200px;
-            height: 200px;
-            bottom: 190px;
-            left: 74px;
-        }
-    }
-}
-
-@media (max-width: 500px){
-    .about{
-
-        .about-img-container {
+  
+        .iphone-placeholder {
+          width: 300px;
+          height: 600px;
+          background-color: #e0e0e0;
+          border-radius: 30px;
+  
+          .iphone-box {
             width: 100%;
-
-            img{
-                width: 180px;
-                height: 180px;
-            }
-
-            &:after {
-                display: none;
-            }
+            height: 100%;
+            background-color: #d4d4d4;
+            border-radius: 30px;
+          }
         }
+      }
     }
-}
-.main-btn{
-    border: 2px solid green !important;
-    border-top: 2px solid green !important;
-}
-
+  
+    /* Button container for side-by-side buttons */
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+  
+    /* Styling for buttons */
+    .main-btn {
+      padding: 10px 20px;
+      border: 2px solid green;
+      background-color: transparent;
+      color: green;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background-color: green;
+        color: white;
+      }
+    }
+  
+    .learn-more-btn {
+      border-color: #32a852;
+    }
+  
+    .get-started-btn {
+      border-color: #ff6347;
+    }
+  
+    .learn-more-btn:hover, .get-started-btn:hover {
+      color: white;
+    }
+  
+    .learn-more-btn:hover {
+      background-color: #32a852;
+    }
+  
+    .get-started-btn:hover {
+      background-color: #ff6347;
+    }
+  
+    /* Remove bullet point from list */
+    .skills-list {
+      list-style: none; /* Remove bullet points */
+      padding: 0;
+      margin: 0;
+  
+      li {
+        margin: 0;
+      }
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .iphone-placeholder-wrapper {
+      flex-direction: column;
+      align-items: center;
+  
+      .iphone-section {
+        .rectangular-text-box {
+          width: 150px;
+          font-size: 0.9rem;
+        }
+  
+        .iphone-placeholder {
+          width: 150px;
+          height: 300px;
+        }
+      }
+    }
+  
+    .button-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

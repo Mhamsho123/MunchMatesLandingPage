@@ -1,0 +1,175 @@
+{
+  "Header.Item1": "Sobre mí",
+  "Header.Item2": "Experiencia",
+  "Header.Item3": "Experiencia",
+  "Header.Item4": "Contacto",
+  "Header.cvBtn": "Currículum",
+  "Header.cvName": "CV_es.pdf",
+
+  "Banner.Pretitle": "¡Hola! Mi nombre es",        
+  "Banner.Description": "Hola, mi nombre es Mohamad Hamsho",
+  "Banner.ActionBtn": "LinkedIn",
+
+  "AboutMe.Title": "Sobre mí",
+  "AboutMe.Paragraphs": [
+    "Como <span class= 'underline'>Ingeniero de Software</span> con una pasión por proyectos con propósito, me esfuerzo por crear soluciones impactantes que se alineen con mis <span class= 'underline'>valores</span>. Mi enfoque está en desarrollar tecnologías innovadoras que no solo resuelvan problemas, sino que también contribuyan al bien común. Estoy comprometido con <span class= 'underline'>la creación de aplicaciones y sistemas</span> que marquen la diferencia, con un interés particular en proyectos que combinan tecnología con <span class= 'underline'>aplicaciones reales significativas</span>."
+  ],
+
+  "Experience.Title": "Experiencia",
+  "Experience.Jobs": [
+    {
+      "Tab": "Global",
+      "Title": "Desarrollador Fullstack",
+      "Date": "Mayo 2023",
+      "Description": [
+        "Líder en la toma de decisiones técnicas",
+        "Contratación de talento técnico para la empresa",
+        "Líder del departamento de tecnología",
+        "Creación y mantenimiento de una plataforma de gestión de procesos internos para ventas de cursos",
+        "Programación de funciones y plugins personalizados para personalizar una plataforma WordPress",
+        "Implementación de integración continua y copias de seguridad diarias.",
+        "Planificación y reuniones de informes."
+      ]
+    },
+    {
+      "Tab": "Proyex",
+      "Title": "Desarrollador Fullstack",
+      "Date": "Diciembre 2019 - Mayo 2023",
+      "Description": [
+        "Creación y mantenimiento de una plataforma de monitoreo con gráficos en WordPress.",
+        "Programación funcional en plantillas y plugins para agregar las funciones de monitoreo necesarias.",
+        "Implementación de integración continua y copias de seguridad diarias.",
+        "Creación y mantenimiento de una segunda plataforma de monitoreo hecha con Angular, Angular Material, Laravel, MySQL, RxJS, Sass con gráficos configurables, sistemas de alarma y gestión de usuarios y configuración general.",
+        "Planificación y reuniones de informes."
+      ]
+    },
+    {
+      "Tab": "Freelancer",
+      "Title": "Freelancer",
+      "Date": "Mayo 2016 - Presente",
+      "Description": [
+        "Implementación de mejoras continuas, trabajando en frontend y backend.",
+        "Creación de plataformas con Angular, Laravel, WordPress programadas con paradigmas de programación funcional, reactiva y orientada a objetos.",
+        "Automatización de procesos con estructuras de datos.",
+        "Diseño de plantillas con SASS, Bootstrap, Materialize, Bulma, etc."
+      ]
+    },
+    {
+      "Tab": "Moebius",
+      "Title": "Desarrollador Fullstack",
+      "Date": "Julio 2017 - Octubre 2018",
+      "Description": [
+        "Liderando un equipo de 4 personas en el desarrollo de una plataforma de gestión de datos turísticos hecha en Angular, Laravel y MySQL.",
+        "Implementación de CI/CD en Azure. Refactorización y optimización de los tiempos de carga de la aplicación.",
+        "Codificación de solicitudes API con RxJS.",
+        "Creación de módulos con formularios reactivos complejos.",
+        "Redacción de informes semanales sobre metas y planes."
+      ]
+    },
+    {
+      "Tab": "TechLatam",
+      "Title": "Desarrollador Frontend",
+      "Date": "Febrero 2016 - Mayo 2017",
+      "Description": [
+        "Creación de plantillas de WordPress con ACF, programación funcional en JavaScript/jQuery, estilos en SASS.",
+        "Integración de diseño y mejoras de tiempo de carga para las plantillas.",
+        "Comunicación efectiva con el equipo de diseño, trabajando con Avocode/Figma."
+      ]
+    },
+    {
+      "Tab": "CANTV",
+      "Title": "Analista de Sistemas",
+      "Date": "Noviembre 2015 - Diciembre 2016",
+      "Description": [
+        "Programación de nuevas funcionalidades para una plataforma de gestión de empleados existente hecha con Angular y ExpressJS.",
+        "Refactorización de código antiguo. Aseguramiento de compatibilidad de cada dependencia con cada actualización, incluyendo actualizaciones regulares de Angular."
+      ]
+    },
+    {
+      "Tab": "IEP",
+      "Title": "Profesor de Inglés",
+      "Date": "Enero 2015 - Julio 2015",
+      "Description": [
+        "Enseñanza de inglés básico a un alumnado de más de 200 estudiantes."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "Experiencia",
+  "FeatureProjects.Label": "Proyectos Destacados",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Quran Quest",
+      "Description": "Como <span class = 'underline'>Fundador de Baraqah Bros</span>, creé una empresa de aplicaciones móviles dedicada a gamificar la <span class = 'underline'>educación para musulmanes</span>, haciendo que el aprendizaje sea atractivo y accesible a través de experiencias digitales innovadoras.",
+      "imgs": [
+        "assets/images/baraqahbros/combined_screenshots_with_drawing.png"
+      ],
+      "Technologies": ["React Native", "Firebase", "Node.js", "AWS", "Redux"]
+    },
+    {
+      "Title": "UMMA APP",
+      "Description": "En UMMA APP LLC, trabajo como <span class = 'underline'>Ingeniero de Software</span>, donde diseño y desarrollo soluciones móviles innovadoras adaptadas a las necesidades de la comunidad musulmana, enfocándome en crear experiencias de usuario fluidas e impactantes.",
+      "imgs": [
+        "assets/images/ummaapp/screencapture-ummaapp-2024-08-09-17_15_06 (1).png"
+      ],
+      "Technologies": ["Flutter", "Firebase", "Django", "GraphQL", "PostgreSQL"]
+    },
+    {
+      "Title": "Proyexiot",
+      "Description": "Plataforma de monitoreo de datos para pozos de agua, remolcadores y varias instalaciones, hecha desde cero con un módulo de autenticación, <span class='underline'>gráficos configurables</span>, <span class='underline'>alarmas configurables</span>, <span class='underline'>gestión de usuarios</span> y <span class='underline'>geolocalización con openlayers</span>. También tiene lógica para formularios reactivos para la configuración de parámetros.",
+      "imgs": [
+        "assets/images/proyex/proyex1.png",
+        "assets/images/proyex/proyex2.png",
+        "assets/images/proyex/proyex3.png",
+        "assets/images/proyex/proyex4.png",
+        "assets/images/proyex/proyex5.png",
+        "assets/images/proyex/proyex6.png",
+        "assets/images/proyex/proyex7.png",
+        "assets/images/proyex/proyex8.png",
+        "assets/images/proyex/proyex9.png",
+        "assets/images/proyex/proyex10.png",
+        "assets/images/proyex/proyex11.png",
+        "assets/images/proyex/proyex12.png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+    }
+  ],
+
+  "OtherProjects.Title": "Más Proyectos",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Hands Game",
+      "Description": "Juego extendido de piedra-papel-tijera. Un proyecto personal desarrollado en Angular donde juegas aleatoriamente contra la máquina. Presenta el uso de servicios, interfaces y componentes.",
+      "imgs": ["assets/images/hands-game.png"],
+      "ghLink": "https://github.com/hamshoai/hands-game",
+      "demoLink": "https://projects.hamshoai.com/hands-game",
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+    },
+    {
+      "Title": "Countries Viewer",
+      "Description": "Interfaz que consume una API de países donde puedes ver una lista de países, ver detalles de cada país, filtrar por nombre y región. También tiene un modo oscuro para alternar entre temas oscuro y claro.",
+      "imgs": ["assets/images/countries-viewer.png"],
+      "ghLink": "https://github.com/hamshoai/countries-viewer",
+      "demoLink": "https://projects.hamshoai.com/countries-viewer",
+      "Technologies": ["Angular", "RxJS", "SASS", "API"]
+    },
+    {
+      "Title": "Four Card Feature Section",
+      "Description": "Una página única con un diseño minimalista que lista 4 características en 4 tarjetas. Se usan animaciones de entrada con animaciones de Angular.",
+      "ghLink": "https://github.com/hamshoai/four-card-feature-section",
+      "demoLink": "https://projects.hamshoai.com/four-card-feature-section",
+      "Technologies": ["Angular", "SASS", "CSS GRID"]
+    }
+  ],
+
+  "Contact.Title": "Contacto",
+  "Contact.Form": {
+    "Name": "Nombre",
+    "Email": "Correo Electrónico",
+    "Message": "Mensaje",
+    "Submit": "Enviar"
+  },
+
+  "Footer.Copyright": "© 2024 Mohamad Hamsho. Todos los derechos reservados.",
+  "Footer.Legal": "Aviso Legal"
+}

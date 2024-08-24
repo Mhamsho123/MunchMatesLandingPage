@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
-import { LanguageService } from 'src/app/services/language/language.service';
 
 @Component({
   selector: 'app-about',
@@ -8,27 +7,20 @@ import { LanguageService } from 'src/app/services/language/language.service';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-  cvName: string = ""
 
-  constructor(
-    public analyticsService: AnalyticsService,
-    public languageService: LanguageService
-  ) { }
+  constructor(public analyticsService: AnalyticsService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { }
+
+  // Add the scrollToTop function here to remove the error
+  scrollToTop(): void {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
-  downloadCV(){
-    this.languageService.translateService.get("Header.cvName").subscribe(val => {
-      this.cvName = val
-      console.log("val Hello guy",val)
-      // app url
-      let url = window.location.href;
 
-      // Open a new window with the CV
-       window.open(url + "/../assets/cv/" + this.cvName, "_blank");
-    })
-
-   }
-
+  scrollToFeatures(): void {
+    const element = document.getElementById('features');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
 }
-

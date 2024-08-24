@@ -1,0 +1,24 @@
+{
+  "Header.Item1": "About Me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Experience",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "CV_en.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",        
+  "Banner.Description": "Hello my name is mohamad Hamsho",
+  "Banner.ActionBtn": "LinkedIn",
+
+  "AboutMe.Title": "About Me",
+  "AboutMe.Paragraphs": [
+     "As a <span class= 'underline'>Software Engineer </span> with a passion for purposeful projects, I thrive on creating impactful solutions that align with my <span class= 'underline'>values </span>. My focus is on developing innovative technologies that not only solve problems but also contribute to the greater good. I am commited to <span class= 'underline'> building apps and systems </span> that make a difference, with a particular interest in projects that blend technology with meaningful, <span class= 'underline'>real-world applications </span>."
+  ],
+
+  "Experience.Title": "Experience",
+
+  "Contact.Pretitle": "And... Now?",
+  "Contact.Title": "Say Hi!",
+  "Contact.Content": "I will be glad to hear from you if you want to discuss new opportunities. Write to me, and I will respond as soon as I see your message.",
+  "Contact.Btn": "Contact Me"
+}

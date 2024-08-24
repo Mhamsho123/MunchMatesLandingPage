@@ -1,52 +1,32 @@
 <section class="section banner">
-  <div [@bannerTrigger] class="container">
-    <div class="section-box-banner">
-      <div class="content">
-        <div class="banner-component">
-          <div>
-            <div>
-              <!-- <h1>Hola, mi nombre es</h1> -->
-              <h1>{{ "Banner.Pretitle" | translate }}</h1>
-            </div>
-            <div class="banner-title">
-              <h2>Mohamad Hamsho.</h2>
-              <h3>Software Engineer</h3>
-              <h3>Entrepreneur</h3>
-            </div>
-            <div class="banner-description">
-              <!-- <p
-                [innerHTML]="'Banner.Description' | translate"
-                class="mt-4"
-              ></p> -->
-            </div>
-          </div>
-          <!-- im adding image here -->
-          <div>
-            <div class="image" id="profileCover">
-              <img
-                id="profile-pic"
-                src="assets/images/me.png"
-                alt="Mohamad Hamsho"
-              />
-            </div>
-          </div>
-        </div>
+  <div class="banner-wrapper">
+    <!-- Left Section - Text Container -->
+    <div class="text-container">
+      <h1 class="banner-title">{{ "Banner.Pretitle" | translate }}</h1>
+      <p class="banner-subtitle">{{ "Banner.Description" | translate }}</p>
+
+      <!-- Pre-register Form -->
+      <div class="pre-register-form">
+        <form>
+          <input
+            type="email"
+            class="email-input"
+            placeholder="Enter your email"
+            required
+          />
+          <button type="submit" class="pre-register-btn">
+            {{ "Banner.ActionBtn" | translate }}
+          </button>
+        </form>
       </div>
-      <div class="div-btn-banner">
-        <a
-          (click)="
-            analyticsService.sendAnalyticEvent(
-              'click_send_mail',
-              'banner',
-              'email'
-            )
-          "
-          href="https://www.linkedin.com/in/mohamad-hamsho-4566b0210/"
-          target="_black"
-          class="main-btn"
-        >
-          {{ "Banner.ActionBtn" | translate }}
-        </a>
+    </div>
+
+    <!-- Right Section - iPhone Placeholder -->
+    <div class="iphone-container">
+      <div class="iphone-placeholder">
+        <div class="iphone-box">
+          <!-- iPhone mockup placeholder -->
+        </div>
       </div>
     </div>
   </div>
